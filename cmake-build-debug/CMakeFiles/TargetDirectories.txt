@@ -1,0 +1,3 @@
+C:/Users/ks/CLionProjects/NumMethodsLab2/cmake-build-debug/CMakeFiles/untitled22.dir
+C:/Users/ks/CLionProjects/NumMethodsLab2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ks/CLionProjects/NumMethodsLab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
