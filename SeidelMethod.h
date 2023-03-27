@@ -23,15 +23,15 @@ void SeidelMethodSolve(double Eps) {
         e3 = abs(x03 - x33);
         e = sqrt(e1 * e1 + e2 * e2 + e3 * e3);
         if (i == 1)
-            cout << "Euclid norm: ||(" << x11 << "," << x22 << "," << x33 << ")T-(" << x01 << "," << x02 << ","
-                      << x03 << ")T|| = " << e << endl;
+            cout << "2nd norm: ||(" << x11 << "," << x22 << "," << x33 << ")T-(" << x01 << "," << x02 << ","
+                << x03 << ")T|| = " << e << endl;
         if (e < Eps) break;
         x01 = x11;
         x02 = x22;
         x03 = x33;
         i++;
     } while (e > Eps);
-    cout << "Euclid norm: ||(" << x11 << "," << x22 << "," << x33 << ")T-(" << x01 << "," << x02 << "," << x03
+    cout << "2nd norm: ||(" << x11 << "," << x22 << "," << x33 << ")T-(" << x01 << "," << x02 << "," << x03
               << ")T|| = " << e << endl;
     cout << "The found soulution:" << endl;
     cout << "x1 = " << x11 << endl;
